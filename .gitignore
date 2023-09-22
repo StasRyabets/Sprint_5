@@ -1,3 +1,5 @@
 geckodriver.log
 .vscode/settings.json
 __pycache__/conftest.cpython-311-pytest-7.4.0.pyc
+tests/__pycache__/test_registration.cpython-311-pytest-7.4.0.pyc
+tests/__pycache__/test_login.cpython-311-pytest-7.4.0.pyc
