@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions
 import string
 import random
 from test_login import login_user
-
+from test_login import login_check
 
 def generate_credentials(name_length, email_length, password_length):
     if name_length < 1 or name_length > 100 or email_length < 1 or email_length > 100 or password_length < 1 or password_length > 100:
@@ -36,6 +36,7 @@ def test_registration_valid_credentials(driver):
     name, email, password = generate_credentials(4, 10, 6)
     register(driver, name, email, password)
     login_user(driver, email, password)
+    login_check(driver)
 
 
 def test_registration_with_too_short_password(driver):
