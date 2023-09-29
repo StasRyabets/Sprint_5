@@ -13,10 +13,10 @@ password_field = "//label[text()='Пароль']/following-sibling::input[@type=
 # buttons
 reg_button = "//button[text()='Зарегистрироваться']"
 constructor_button = '//p[text()="Конструктор"]'
-sauce_button = '//*[@id="root"]/div/main/section[1]/div[1]/div[2]'
-filling_button = '//*[@id="root"]/div/main/section[1]/div[1]/div[3]'
-bun_button = '//*[@id="root"]/div/main/section[1]/div[1]/div[1]'
-account_button = "//p[@class='AppHeader_header__linkText__3q_va ml-2' and text()='Личный Кабинет']"
+sauce_button = "//div[contains(span, 'Соусы')]"
+filling_button = "//div[contains(span, 'Начинки')]"
+bun_button = "//div[contains(span, 'Булки')]"
+account_button = "//p[contains(text(),'Личный Кабинет')]"
 save_button = "//button[text()='Сохранить']"
 login_button = "//button[text()='Войти']"
 login_from_home_page_button = "//button[text()='Войти в аккаунт']"
@@ -28,8 +28,10 @@ logout_button = "//button[text()='Выход']"
 texts_on_account_page = ['Профиль', 'История заказов', 'Выход', 'Имя', 'Логин', 'Пароль', 'В этом разделе вы можете изменить свои персональные данные']
 texts_on_constructor_page = ['Соберите бургер', 'Булки', 'Соусы', 'Начинки']
 
-# other
-constructor_logo = '//*[@id="root"]/div/header/nav/div'
+# other 
+
+constructor_logo = "//div[contains(@class, 'header__logo')]"
+
 current_atribute = '[contains(@class,"current")]'
 valid_email = "stasriabets1042@ya.uz"
 valid_password = "123456"
