@@ -15,7 +15,7 @@
 
     test_logout_from_account - позитивный, выходим из профиля пользователя
 
-    test_open_account_from_home_page - проверяем содержание страницы профиля
+    test_open_account - проверяем содержание страницы профиля
 
     test_open_constructor_click_on_button - открытие конструктора по клику на соответсвующую кнопку
     test_open_constructor_click_on_logo - открытие конструктора по клику на логотип
