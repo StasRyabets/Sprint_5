@@ -25,13 +25,12 @@ order_button = "//button[text()='Оформить заказ']"
 logout_button = "//button[text()='Выход']"
 
 # texts
-texts_on_account_page = ['Профиль', 'История заказов', 'Выход', 'Имя', 'Логин', 'Пароль', 'В этом разделе вы можете изменить свои персональные данные']
+texts_on_account_page = ['Профиль', 'История заказов', 'Выход', 'Имя', 'Логин',
+                         'Пароль', 'В этом разделе вы можете изменить свои персональные данные']
 texts_on_constructor_page = ['Соберите бургер', 'Булки', 'Соусы', 'Начинки']
 
-# other 
-
+# other
 constructor_logo = "//div[contains(@class, 'header__logo')]"
-
 current_atribute = '[contains(@class,"current")]'
 valid_email = "stasriabets1042@ya.uz"
 valid_password = "123456"

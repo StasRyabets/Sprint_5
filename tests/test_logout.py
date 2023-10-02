@@ -1,9 +1,8 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
-from test_login import login_user
-from tests.test_account import open_account
 from data import *
+from utils import *
 
 
 def test_logout_from_account(driver):
